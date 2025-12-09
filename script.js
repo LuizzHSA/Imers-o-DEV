@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('cards-container');
+  const searchInput = document.getElementById('search-input');
+  let allTechnologies = []; // Armazena todas as tecnologias para filtrar
 
   const fetchTechnologies = async () => {
     try {
@@ -7,8 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
-      const technologies = await response.json();
-      renderCards(technologies);
+      allTechnologies = await response.json();
+      renderCards(allTechnologies); // Renderiza todos os cartões inicialmente
     } catch (error) {
       console.error('Erro ao carregar as tecnologias:', error);
       container.innerHTML =
@@ -40,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .replace(/\b\w/g, (l) => l.toUpperCase());
           return `<a href="${value}" target="_blank" rel="noopener noreferrer" class="recurso-link">${linkText}</a>`;
         })
-        .join(' | ');
+        .join('');
 
       card.innerHTML = `
                 <h2>${tech.nome} <span style="font-size: 0.9rem; color: #aaa;">(${tech.data_criacao})</span></h2>
@@ -53,5 +55,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   };
 
+  const handleSearch = (event) => {
+    const searchTerm = event.target.value.toLowerCase();
+
+    const filteredTechnologies = allTechnologies.filter((tech) => {
+      const nameMatch = tech.nome.toLowerCase().includes(searchTerm);
+      const tagMatch = tech.tags.some((tag) =>
+        tag.toLowerCase().includes(searchTerm)
+      );
+      return nameMatch || tagMatch;
+    });
+
+    renderCards(filteredTechnologies);
+  };
+
+  searchInput.addEventListener('input', handleSearch);
   fetchTechnologies();
 });

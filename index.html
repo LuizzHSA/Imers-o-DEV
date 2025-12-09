@@ -29,9 +29,30 @@
         margin-bottom: 2rem;
       }
 
+      .search-container {
+        margin: 0 auto 2rem;
+        max-width: 600px;
+        width: 100%;
+      }
+
+      #search-input {
+        width: 100%;
+        padding: 0.8rem 1rem;
+        font-size: 1rem;
+        border-radius: 8px;
+        border: 1px solid var(--border-color);
+        background-color: var(--card-bg);
+        color: var(--text-color);
+        box-sizing: border-box; /* Garante que padding não afete a largura total */
+      }
+
+      #search-input::placeholder {
+        color: #888;
+      }
+
       #cards-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
         gap: 1.5rem;
       }
 
@@ -61,6 +82,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 0.5rem;
+        align-items: center;
       }
 
       .card .tag {
@@ -75,15 +97,40 @@
         color: var(--link-color);
         text-decoration: none;
         font-weight: 500;
+        padding: 0.2rem 0;
+      }
+
+      .card .recurso-link:not(:last-child) {
+        padding-right: 0.5rem;
+        border-right: 1px solid var(--border-color);
       }
 
       .card .recurso-link:hover {
         text-decoration: underline;
       }
+
+      /* --- Estilos para responsividade --- */
+      @media (max-width: 600px) {
+        body {
+          padding: 1rem;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
     </style>
   </head>
   <body>
     <h1>Minha Base de Conhecimento</h1>
+
+    <div class="search-container">
+      <input
+        type="search"
+        id="search-input"
+        placeholder="Buscar por nome ou tag..."
+      />
+    </div>
+
     <main id="cards-container"></main>
 
     <script src="script.js" defer></script>
