@@ -1,0 +1,543 @@
+[
+  {
+    "nome": "Go",
+    "descricao": "Linguagem de programação compilada e concorrente, criada pelo Google para construir sistemas eficientes.",
+    "data_criacao": "2009",
+    "tags": [
+      "Linguagem de Programação",
+      "Backend",
+      "Sistemas",
+      "Concorrência",
+      "Compilada"
+    ],
+    "recursos": {
+      "site_oficial": "https://go.dev/",
+      "documentacao": "https://go.dev/doc/",
+      "primeiros_passos": "https://go.dev/doc/tutorial/getting-started",
+      "exemplos": "https://gobyexample.com/"
+    }
+  },
+  {
+    "nome": "Rust",
+    "descricao": "Linguagem de programação que foca em segurança de memória, velocidade e concorrência.",
+    "data_criacao": "2010",
+    "tags": [
+      "Linguagem de Programação",
+      "Sistemas Operacionais",
+      "Performance",
+      "Compilada"
+    ],
+    "recursos": {
+      "site_oficial": "https://www.rust-lang.org/",
+      "documentacao": "https://www.rust-lang.org/learn",
+      "primeiros_passos": "https://doc.rust-lang.org/book/",
+      "exemplos": "https://doc.rust-lang.org/rust-by-example/"
+    }
+  },
+  {
+    "nome": "Kotlin",
+    "descricao": "Linguagem de programação moderna e estaticamente tipada, que roda na JVM e é amplamente usada para Android.",
+    "data_criacao": "2011",
+    "tags": ["Linguagem de Programação", "JVM", "Backend", "Mobile"],
+    "recursos": {
+      "site_oficial": "https://kotlinlang.org/",
+      "documentacao": "https://kotlinlang.org/docs/home.html",
+      "primeiros_passos": "https://kotlinlang.org/docs/getting-started.html",
+      "exemplos": "https://play.kotlinlang.org/byExample/overview"
+    }
+  },
+  {
+    "nome": "TypeScript",
+    "descricao": "Um superset de JavaScript que adiciona tipagem estática opcional ao código.",
+    "data_criacao": "2012",
+    "tags": [
+      "Linguagem de Programação",
+      "Tipagem Estática",
+      "Frontend",
+      "Backend"
+    ],
+    "recursos": {
+      "site_oficial": "https://www.typescriptlang.org/",
+      "documentacao": "https://www.typescriptlang.org/docs/",
+      "primeiros_passos": "https://www.typescriptlang.org/docs/handbook/typescript-for-the-new-programmer.html",
+      "exemplos": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html"
+    }
+  },
+  {
+    "nome": "React",
+    "descricao": "Biblioteca JavaScript declarativa para criação de interfaces de usuário baseadas em componentes.",
+    "data_criacao": "2013",
+    "tags": ["Biblioteca", "Frontend", "UI/UX", "Componentes"],
+    "recursos": {
+      "site_oficial": "https://react.dev/",
+      "documentacao": "https://react.dev/learn",
+      "primeiros_passos": "https://react.dev/learn/tutorial-tic-tac-toe",
+      "exemplos": "https://react.dev/learn#learning-react"
+    }
+  },
+  {
+    "nome": "Vue.js",
+    "descricao": "Framework JavaScript progressivo para construção de interfaces de usuário e Single Page Applications (SPAs).",
+    "data_criacao": "2014",
+    "tags": ["Framework", "Frontend", "SPA", "MVVM"],
+    "recursos": {
+      "site_oficial": "https://vuejs.org/",
+      "documentacao": "https://vuejs.org/guide/introduction.html",
+      "primeiros_passos": "https://vuejs.org/guide/quick-start.html",
+      "exemplos": "https://vuejs.org/examples/#hello-world"
+    }
+  },
+  {
+    "nome": "Angular",
+    "descricao": "Framework completo (full-fledged) baseado em TypeScript, mantido pelo Google para desenvolvimento web.",
+    "data_criacao": "2016",
+    "tags": ["Framework", "Frontend", "TypeScript", "Web Development"],
+    "recursos": {
+      "site_oficial": "https://angular.io/",
+      "documentacao": "https://angular.io/docs",
+      "primeiros_passos": "https://angular.io/tutorial/first-app",
+      "exemplos": "https://angular.io/resources"
+    }
+  },
+  {
+    "nome": "Node.js",
+    "descricao": "Ambiente de execução JavaScript assíncrono e orientado a eventos para construir aplicações de rede escaláveis.",
+    "data_criacao": "2009",
+    "tags": ["Runtime", "Backend", "JavaScript", "Event-Driven"],
+    "recursos": {
+      "site_oficial": "https://nodejs.org/",
+      "documentacao": "https://nodejs.org/en/docs/",
+      "primeiros_passos": "https://nodejs.dev/en/learn/",
+      "exemplos": "https://nodejs.dev/en/learn/how-to-write-and-run-the-hello-world-program-in-nodejs/"
+    }
+  },
+  {
+    "nome": "Next.js",
+    "descricao": "Framework React para produção que habilita renderização no lado do servidor (SSR) e geração de sites estáticos.",
+    "data_criacao": "2016",
+    "tags": ["Framework", "Frontend", "SSR", "Full Stack"],
+    "recursos": {
+      "site_oficial": "https://nextjs.org/",
+      "documentacao": "https://nextjs.org/docs",
+      "primeiros_passos": "https://nextjs.org/learn/basics/create-nextjs-app",
+      "exemplos": "https://github.com/vercel/next.js/tree/canary/examples"
+    }
+  },
+  {
+    "nome": "Spring Boot",
+    "descricao": "Extensão do framework Spring que simplifica a criação de aplicações Java autônomas e de nível de produção.",
+    "data_criacao": "2014",
+    "tags": ["Framework", "Backend", "Java", "Microsserviços"],
+    "recursos": {
+      "site_oficial": "https://spring.io/projects/spring-boot",
+      "documentacao": "https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/",
+      "primeiros_passos": "https://spring.io/quickstart",
+      "exemplos": "https://github.com/spring-projects/spring-boot/tree/main/spring-boot-project/spring-boot-samples"
+    }
+  },
+  {
+    "nome": "Docker",
+    "descricao": "Plataforma para desenvolver, enviar e executar aplicações dentro de contêineres leves e isolados.",
+    "data_criacao": "2013",
+    "tags": ["Contêineres", "DevOps", "Virtualização", "Ferramenta"],
+    "recursos": {
+      "site_oficial": "https://www.docker.com/",
+      "documentacao": "https://docs.docker.com/",
+      "primeiros_passos": "https://docs.docker.com/get-started/",
+      "exemplos": "https://github.com/dockersamples"
+    }
+  },
+  {
+    "nome": "Kubernetes (K8s)",
+    "descricao": "Sistema de orquestração de contêineres open-source, usado para automatizar a implantação e gerenciamento.",
+    "data_criacao": "2014",
+    "tags": ["Orquestração", "DevOps", "Contêineres", "Cloud Computing"],
+    "recursos": {
+      "site_oficial": "https://kubernetes.io/",
+      "documentacao": "https://kubernetes.io/docs/home/",
+      "primeiros_passos": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+      "exemplos": "https://kubernetes.io/docs/tasks/"
+    }
+  },
+  {
+    "nome": "Terraform",
+    "descricao": "Ferramenta de Infraestrutura como Código (IaC) que permite provisionar e gerenciar recursos de nuvem.",
+    "data_criacao": "2014",
+    "tags": ["DevOps", "IaC", "Cloud Computing", "Automação"],
+    "recursos": {
+      "site_oficial": "https://www.terraform.io/",
+      "documentacao": "https://developer.hashicorp.com/terraform/docs",
+      "primeiros_passos": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started",
+      "exemplos": "https://github.com/hashicorp/terraform-guides"
+    }
+  },
+  {
+    "nome": "AWS Lambda",
+    "descricao": "Serviço de computação serverless da Amazon Web Services que executa código em resposta a eventos.",
+    "data_criacao": "2014",
+    "tags": ["Serverless", "Cloud Computing", "Backend", "FaaS"],
+    "recursos": {
+      "site_oficial": "https://aws.amazon.com/lambda/",
+      "documentacao": "https://docs.aws.amazon.com/lambda/",
+      "primeiros_passos": "https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html",
+      "exemplos": "https://github.com/aws-samples/aws-lambda-samples"
+    }
+  },
+  {
+    "nome": "PostgreSQL",
+    "descricao": "Sistema de banco de dados relacional (SQL) open source, conhecido por sua robustez e recursos avançados.",
+    "data_criacao": "1996",
+    "tags": ["Banco de Dados", "SQL", "Relacional", "Open Source"],
+    "recursos": {
+      "site_oficial": "https://www.postgresql.org/",
+      "documentacao": "https://www.postgresql.org/docs/",
+      "primeiros_passos": "https://www.postgresql.org/docs/current/tutorial-start.html",
+      "exemplos": "https://wiki.postgresql.org/wiki/Sample_Databases"
+    }
+  },
+  {
+    "nome": "MongoDB",
+    "descricao": "Banco de dados NoSQL orientado a documentos, conhecido por sua flexibilidade de esquema.",
+    "data_criacao": "2009",
+    "tags": [
+      "Banco de Dados",
+      "NoSQL",
+      "Orientado a Documentos",
+      "Escalabilidade"
+    ],
+    "recursos": {
+      "site_oficial": "https://www.mongodb.com/",
+      "documentacao": "https://www.mongodb.com/docs/",
+      "primeiros_passos": "https://www.mongodb.com/docs/manual/tutorial/getting-started/",
+      "exemplos": "https://github.com/mongodb/docs-code-examples"
+    }
+  },
+  {
+    "nome": "Redis",
+    "descricao": "Armazenamento de estrutura de dados em memória, usado como cache, message broker e banco de dados.",
+    "data_criacao": "2009",
+    "tags": ["Cache", "Banco de Dados", "In-Memory", "Estrutura de Dados"],
+    "recursos": {
+      "site_oficial": "https://redis.io/",
+      "documentacao": "https://redis.io/docs/",
+      "primeiros_passos": "https://redis.io/docs/getting-started/",
+      "exemplos": "https://redis.io/docs/getting-started/examples/"
+    }
+  },
+  {
+    "nome": "Kafka (Apache Kafka)",
+    "descricao": "Plataforma de streaming de eventos distribuída e escalável, projetada para lidar com grandes volumes de dados.",
+    "data_criacao": "2011",
+    "tags": ["Streaming de Dados", "Message Broker", "Backend", "Eventos"],
+    "recursos": {
+      "site_oficial": "https://kafka.apache.org/",
+      "documentacao": "https://kafka.apache.org/documentation/",
+      "primeiros_passos": "https://kafka.apache.org/quickstart",
+      "exemplos": "https://github.com/apache/kafka/tree/trunk/examples"
+    }
+  },
+  {
+    "nome": "GraphQL",
+    "descricao": "Linguagem de consulta para APIs desenvolvida pelo Facebook, que permite solicitar exatamente os dados necessários.",
+    "data_criacao": "2015",
+    "tags": ["API", "Linguagem de Consulta", "Backend", "Web Services"],
+    "recursos": {
+      "site_oficial": "https://graphql.org/",
+      "documentacao": "https://graphql.org/learn/",
+      "primeiros_passos": "https://graphql.org/learn/getting-started/",
+      "exemplos": "https://graphql.org/code/#javascript"
+    }
+  },
+  {
+    "nome": "Swift",
+    "descricao": "Linguagem de programação poderosa e intuitiva criada pela Apple para desenvolver apps para seus sistemas operacionais.",
+    "data_criacao": "2014",
+    "tags": [
+      "Linguagem de Programação",
+      "Mobile",
+      "Apple Ecosystem",
+      "Compilada"
+    ],
+    "recursos": {
+      "site_oficial": "https://www.swift.org/",
+      "documentacao": "https://www.swift.org/documentation/",
+      "primeiros_passos": "https://www.swift.org/getting-started/",
+      "exemplos": "https://www.swift.org/source-code/"
+    }
+  },
+  {
+    "nome": "Flutter",
+    "descricao": "UI toolkit do Google para construir aplicações nativamente compiladas para web, mobile e desktop a partir de uma base de código.",
+    "data_criacao": "2017",
+    "tags": ["Mobile", "Framework", "Cross-Platform", "UI Toolkit"],
+    "recursos": {
+      "site_oficial": "https://flutter.dev/",
+      "documentacao": "https://docs.flutter.dev/",
+      "primeiros_passos": "https://docs.flutter.dev/get-started/install",
+      "exemplos": "https://github.com/flutter/samples"
+    }
+  },
+  {
+    "nome": "Django",
+    "descricao": "Framework web de alto nível, que incentiva o desenvolvimento rápido e design limpo e pragmático.",
+    "data_criacao": "2005",
+    "tags": ["Framework", "Backend", "Web Development", "ORM"],
+    "recursos": {
+      "site_oficial": "https://www.djangoproject.com/",
+      "documentacao": "https://docs.djangoproject.com/en/stable/",
+      "primeiros_passos": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
+      "exemplos": "https://www.djangoproject.com/start/overview/"
+    }
+  },
+  {
+    "nome": "Svelte",
+    "descricao": "Framework reativo que compila o código em JavaScript performático no build step, eliminando overhead do runtime.",
+    "data_criacao": "2016",
+    "tags": ["Framework", "Frontend", "Compilador", "Performance"],
+    "recursos": {
+      "site_oficial": "https://svelte.dev/",
+      "documentacao": "https://svelte.dev/docs/introduction",
+      "primeiros_passos": "https://svelte.dev/tutorial/basics",
+      "exemplos": "https://svelte.dev/examples/hello-world"
+    }
+  },
+  {
+    "nome": "Jenkins",
+    "descricao": "Servidor de automação open source que suporta a entrega contínua (CD) e a integração contínua (CI).",
+    "data_criacao": "2011",
+    "tags": ["DevOps", "CI/CD", "Automação", "Servidor"],
+    "recursos": {
+      "site_oficial": "https://www.jenkins.io/",
+      "documentacao": "https://www.jenkins.io/doc/",
+      "primeiros_passos": "https://wwwsever.jenkins.io/doc/pipeline/tour/getting-started/",
+      "exemplos": "https://www.jenkins.io/solutions/"
+    }
+  },
+  {
+    "nome": "Prometheus",
+    "descricao": "Sistema de monitoramento e alerta open-source, projetado para coletar e armazenar métricas de séries temporais.",
+    "data_criacao": "2012",
+    "tags": ["Monitoramento", "Observabilidade", "DevOps", "Alerta"],
+    "recursos": {
+      "site_oficial": "https://prometheus.io/",
+      "documentacao": "https://prometheus.io/docs/introduction/overview/",
+      "primeiros_passos": "https://prometheus.io/docs/prometheus/latest/getting_started/",
+      "exemplos": "https://github.com/prometheus/client_java/tree/master/simpleclient_hotspot/src/main/java/io/prometheus/client/hotspot/examples"
+    }
+  },
+  {
+    "nome": "Python",
+    "descricao": "Linguagem de programação de alto nível, interpretada, com uma sintaxe limpa e legível, amplamente usada em desenvolvimento web, ciência de dados e automação.",
+    "data_criacao": "1991",
+    "tags": [
+      "Linguagem de Programação",
+      "Backend",
+      "Data Science",
+      "Interpretada"
+    ],
+    "recursos": {
+      "site_oficial": "https://www.python.org/",
+      "documentacao": "https://docs.python.org/3/",
+      "primeiros_passos": "https://docs.python.org/3/tutorial/index.html",
+      "exemplos": "https://wiki.python.org/moin/SimplePrograms"
+    }
+  },
+  {
+    "nome": "C#",
+    "descricao": "Linguagem de programação moderna, orientada a objetos e desenvolvida pela Microsoft como parte da plataforma .NET.",
+    "data_criacao": "2000",
+    "tags": ["Linguagem de Programação", "Backend", "Games", ".NET"],
+    "recursos": {
+      "site_oficial": "https://dotnet.microsoft.com/en-us/languages/csharp",
+      "documentacao": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+      "primeiros_passos": "https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/",
+      "exemplos": "https://github.com/dotnet/samples/tree/main/csharp"
+    }
+  },
+  {
+    "nome": "Ruby on Rails",
+    "descricao": "Framework de desenvolvimento web do lado do servidor escrito em Ruby. Segue o padrão 'convention over configuration' (convenção sobre configuração).",
+    "data_criacao": "2004",
+    "tags": ["Framework", "Backend", "Web Development", "Ruby"],
+    "recursos": {
+      "site_oficial": "https://rubyonrails.org/",
+      "documentacao": "https://guides.rubyonrails.org/",
+      "primeiros_passos": "https://guides.rubyonrails.org/getting_started.html",
+      "exemplos": "https://github.com/rails/website/tree/main/guides/code"
+    }
+  },
+  {
+    "nome": "Git",
+    "descricao": "Sistema de controle de versão distribuído, gratuito e de código aberto, projetado para lidar com tudo, desde projetos pequenos a muito grandes, com velocidade e eficiência.",
+    "data_criacao": "2005",
+    "tags": ["Controle de Versão", "Ferramenta", "DevOps", "Código Aberto"],
+    "recursos": {
+      "site_oficial": "https://git-scm.com/",
+      "documentacao": "https://git-scm.com/doc",
+      "primeiros_passos": "https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup",
+      "exemplos": "https://git-scm.com/docs/git-commit"
+    }
+  },
+  {
+    "nome": "Ansible",
+    "descricao": "Ferramenta de automação de TI de código aberto que automatiza o provisionamento de software, o gerenciamento de configuração e a implantação de aplicativos.",
+    "data_criacao": "2012",
+    "tags": ["Automação", "DevOps", "IaC", "Gerenciamento de Configuração"],
+    "recursos": {
+      "site_oficial": "https://www.ansible.com/",
+      "documentacao": "https://docs.ansible.com/",
+      "primeiros_passos": "https://docs.ansible.com/ansible/latest/user_guide/getting_started.html",
+      "exemplos": "https://github.com/ansible/ansible-examples"
+    }
+  },
+  {
+    "nome": "Java",
+    "descricao": "Linguagem de programação orientada a objetos, de propósito geral, conhecida pelo lema 'write once, run anywhere' (escreva uma vez, rode em qualquer lugar).",
+    "data_criacao": "1995",
+    "tags": ["Linguagem de Programação", "Backend", "Enterprise", "JVM"],
+    "recursos": {
+      "site_oficial": "https://www.java.com/",
+      "documentacao": "https://docs.oracle.com/en/java/",
+      "primeiros_passos": "https://dev.java/learn/",
+      "exemplos": "https://github.com/java-samples"
+    }
+  },
+  {
+    "nome": "JavaScript",
+    "descricao": "Linguagem de programação de alto nível, interpretada, que é uma das tecnologias centrais da World Wide Web. Essencial para o desenvolvimento web interativo.",
+    "data_criacao": "1995",
+    "tags": [
+      "Linguagem de Programação",
+      "Frontend",
+      "Backend",
+      "Web Development"
+    ],
+    "recursos": {
+      "site_oficial": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
+      "documentacao": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference",
+      "primeiros_passos": "https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps",
+      "exemplos": "https://javascript.info/"
+    }
+  },
+  {
+    "nome": "C++",
+    "descricao": "Linguagem de programação de propósito geral, compilada, com suporte para programação procedural, orientada a objetos e genérica. Conhecida por sua alta performance.",
+    "data_criacao": "1985",
+    "tags": ["Linguagem de Programação", "Sistemas", "Games", "Performance"],
+    "recursos": {
+      "site_oficial": "https://isocpp.org/",
+      "documentacao": "https://isocpp.org/documentation",
+      "primeiros_passos": "https://www.learncpp.com/",
+      "exemplos": "https://github.com/isocpp/CppCoreGuidelines"
+    }
+  },
+  {
+    "nome": "C",
+    "descricao": "Linguagem de programação procedural imperativa, de propósito geral. Serviu de base para muitas outras linguagens como C++, Java e C#.",
+    "data_criacao": "1972",
+    "tags": [
+      "Linguagem de Programação",
+      "Sistemas",
+      "Embarcados",
+      "Performance"
+    ],
+    "recursos": {
+      "site_oficial": "https://www.iso.org/standard/74528.html",
+      "documentacao": "https://devdocs.io/c/",
+      "primeiros_passos": "https://www.learn-c.org/",
+      "exemplos": "https://www.programiz.com/c-programming/examples"
+    }
+  },
+  {
+    "nome": "PHP",
+    "descricao": "Linguagem de script do lado do servidor, de código aberto, amplamente utilizada para o desenvolvimento web. É a base de sistemas como WordPress e Drupal.",
+    "data_criacao": "1995",
+    "tags": [
+      "Linguagem de Programação",
+      "Backend",
+      "Web Development",
+      "Scripting"
+    ],
+    "recursos": {
+      "site_oficial": "https://www.php.net/",
+      "documentacao": "https://www.php.net/manual/pt_BR/",
+      "primeiros_passos": "https://www.php.net/manual/pt_BR/getting-started.php",
+      "exemplos": "https://www.php.net/manual/pt_BR/examples.php"
+    }
+  },
+  {
+    "nome": "Ruby",
+    "descricao": "Linguagem de programação dinâmica, de código aberto, com foco na simplicidade e produtividade. Sua sintaxe elegante é natural para ler e fácil de escrever.",
+    "data_criacao": "1995",
+    "tags": [
+      "Linguagem de Programação",
+      "Backend",
+      "Web Development",
+      "Scripting"
+    ],
+    "recursos": {
+      "site_oficial": "https://www.ruby-lang.org/",
+      "documentacao": "https://www.ruby-lang.org/pt/documentation/",
+      "primeiros_passos": "https://www.ruby-lang.org/pt/documentation/quickstart/",
+      "exemplos": "https://www.ruby-lang.org/pt/documentation/ruby-from-other-languages/"
+    }
+  },
+  {
+    "nome": "Dart",
+    "descricao": "Linguagem de programação otimizada para clientes para construir aplicativos rápidos em qualquer plataforma. Desenvolvida pelo Google, é a linguagem por trás do Flutter.",
+    "data_criacao": "2011",
+    "tags": [
+      "Linguagem de Programação",
+      "Mobile",
+      "Web Development",
+      "Cross-Platform"
+    ],
+    "recursos": {
+      "site_oficial": "https://dart.dev/",
+      "documentacao": "https://dart.dev/guides",
+      "primeiros_passos": "https://dart.dev/get-dart",
+      "exemplos": "https://dart.dev/samples"
+    }
+  },
+  {
+    "nome": "Scala",
+    "descricao": "Linguagem de programação que combina programação orientada a objetos e funcional. Roda na JVM e é muito usada em Big Data com frameworks como Apache Spark.",
+    "data_criacao": "2004",
+    "tags": ["Linguagem de Programação", "Funcional", "Backend", "Big Data"],
+    "recursos": {
+      "site_oficial": "https://www.scala-lang.org/",
+      "documentacao": "https://docs.scala-lang.org/",
+      "primeiros_passos": "https://docs.scala-lang.org/getting-started/",
+      "exemplos": "https://docs.scala-lang.org/overviews/scala-book/object-oriented-hello-world.html"
+    }
+  },
+  {
+    "nome": "R",
+    "descricao": "Linguagem de programação e ambiente de software para computação estatística e gráficos. Amplamente utilizada por estatísticos e analistas de dados.",
+    "data_criacao": "1993",
+    "tags": [
+      "Linguagem de Programação",
+      "Data Science",
+      "Estatística",
+      "Análise de Dados"
+    ],
+    "recursos": {
+      "site_oficial": "https://www.r-project.org/",
+      "documentacao": "https://www.r-project.org/other-docs.html",
+      "primeiros_passos": "https://cran.r-project.org/doc/manuals/r-release/R-intro.html",
+      "exemplos": "https://www.datamentor.io/r-programming/example/"
+    }
+  },
+  {
+    "nome": "Tailwind CSS",
+    "descricao": "Um framework CSS utility-first para criar rapidamente designs personalizados sem sair do seu HTML.",
+    "data_criacao": "2017",
+    "tags": ["Framework CSS", "Frontend", "Utility-First", "Design Responsivo"],
+    "recursos": {
+      "site_oficial": "https://tailwindcss.com/",
+      "documentacao": "https://tailwindcss.com/docs/installation",
+      "primeiros_passos": "https://tailwindcss.com/docs/utility-first",
+      "exemplos": "https://play.tailwindcss.com/"
+    }
+  }
+]
